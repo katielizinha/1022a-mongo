@@ -6,11 +6,17 @@ Em um Banco de Dados NoSQL, você pode adicionar novos dados sem ter que pré-de
 
 
 2)O que são collections no MongoDB? Como elas se comparam a tabelas em bancos de dados relacionais?
-R: No MongoDB, em vez de tabelas, os dados são armazenados em collections, ou seja, em  um agrupamento de documentos, que contêm um ou mais documentos BSON. Esses documentos são equivalentes a registros ou linhas em uma tabela de banco de dados relacional. Cada documento possui um ou mais campos, que funcionam de forma similar às colunas em uma tabela relacional.
+R: No MongoDB, em vez de tabelas, os dados são armazenados em collections, ou seja, em  um agrupamento de documentos, que contêm um ou mais documentos BSON. 
+Esses documentos são equivalentes a registros ou linhas em uma tabela de banco de dados relacional. Cada documento possui um ou mais campos, que funcionam 
+de forma similar às colunas em uma tabela relacional.
 
 
 3)Qual a função do comando `insertOne`? Em quais situações você o utilizaria?
-R: O comando ‘insertOne’ é utilizado para inserir um único documento em uma collection no MongoDB. Ele é ideal para situações em que você deseja adicionar um registro de forma controlada e isolada, garantindo que, em caso de erro, apenas esse documento específico seja afetado, preservando a integridade dos demais dados.  Esse comando é útil quando não há a necessidade de inserir um grande número de dados simultaneamente, ou quando é importante que a inserção seja tratada de forma atomizada e individual
+R: O comando ‘insertOne’ é utilizado para inserir um único documento em uma collection no MongoDB. 
+Ele é ideal para situações em que você deseja adicionar um registro de forma controlada e isolada, garantindo que, 
+em caso de erro, apenas esse documento específico seja afetado, preservando a integridade dos demais dados. 
+ Esse comando é útil quando não há a necessidade de inserir um grande número de dados simultaneamente, ou quando é importante que a inserção 
+ seja tratada de forma atomizada e individual
 
 
 4)Diferencie o comando `insertOne` de `insertMany`. Quando você deveria optar por usar um ou outro?

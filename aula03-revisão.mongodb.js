@@ -58,5 +58,6 @@ db.estudante.find(
         {"idade":{$gt:17,$lte:18}},
         {"nome":{$ne:"Maria"}}
     ]
-},
+}
+,
 {"nome":1,"idade":1,"_id":0})
